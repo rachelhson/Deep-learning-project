@@ -36,8 +36,8 @@ hyperparmeter optmization : `learning rate`,`weight decay`,`momentum`,`layer cha
 - `learning rate` : It controls how much to change the model in response to the estimated error each time the model weight are updated. Too small learning rate results in taking long time for training, while too large value cause learning too fast or unstable training process.
 
 - `weight decay (Regularization)` : | It updates loss value, applying it to the weights and bias (PyTorch). It avoids the weights/bias to avoid exploding gradient. 
-- momentum |value: 0.0 ~ 1.0| It updates the step to find a new point in the search space (0.0 is the same as gradient decent w/o momentum)
-
+- `momentum` |value: 0.0 ~ 1.0| It updates the step to find a new point in the search space (0.0 is the same as gradient decent w/o momentum)
+- `the number of neurons, activation function, optimizer, learning rate, batch size, and epochs`
 * ROC curve (receiver operating characteristic curve) - a graph shows the performance of the model
 - TPR (True Positive Rate) = TP / (TP + FN)
 - FPR (False Positive Rate)= FP / (FP + TN)
